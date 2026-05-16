@@ -1,0 +1,1 @@
+.dps-slider{position:relative;overflow:hidden}.dps-slide{display:none}.dps-slide.is-active{display:block}.dps-slide__image img{width:100%;height:auto;display:block}.dps-slider__arrow{position:absolute;top:50%;transform:translateY(-50%)}.dps-slider__arrow--prev{left:.5rem}.dps-slider__arrow--next{right:.5rem}
