@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "dps/slider",
+  "version": "1.0.0",
+  "title": "Dynamic Slider",
+  "category": "widgets",
+  "icon": "images-alt2",
+  "description": "Dynamic post slider with query and design controls.",
+  "textdomain": "dynamic-publisher-suite",
+  "editorScript": "file:../../build/index.js",
+  "style": "dps-shared-style",
+  "supports": { "html": false },
+  "attributes": {
+    "postType": { "type": "string", "default": "post" },
+    "postsPerPage": { "type": "number", "default": 5 },
+    "orderBy": { "type": "string", "default": "date" },
+    "order": { "type": "string", "default": "DESC" },
+    "manualPostIds": { "type": "array", "default": [] },
+    "categoryIds": { "type": "array", "default": [] },
+    "tagIds": { "type": "array", "default": [] },
+    "autoplay": { "type": "boolean", "default": true },
+    "speed": { "type": "number", "default": 4000 },
+    "showExcerpt": { "type": "boolean", "default": true },
+    "excerptLength": { "type": "number", "default": 20 }
+  }
+}
